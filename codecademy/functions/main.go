@@ -2,10 +2,11 @@ package main
 
 import "fmt"
 
-func eatTacos() {
-	fmt.Println("Yum!")
-}
+func rateMyComics (title, character, author string) (int, string) {
+	var myRating, myRecommendation string
 
-func main(){
-	eatTacos()
+	switch title {
+		
+	}
+
 }
