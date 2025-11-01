@@ -3,8 +3,6 @@ package main
 import (
 	"fmt" 
 	"time"
-	"mono"
-
 )
 
 // 1. Create function to check current time.
@@ -14,14 +12,13 @@ func current_time () {
 	// var current_time_VA int32
 
 	t := time.Now().Local()
-	
 
 	// tz, _ := time.LoadLocation("America/New_York")
 	// vaHour := t.In(tz).Hour()
 
 	// return int32(vaHour)
 
-	fmt.Print(t.stripMono())
+	fmt.Println(t)
 }
 
 
