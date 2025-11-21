@@ -1,12 +1,10 @@
-package main
+package main 
 
-import "fmt"
+import (
+	
+	"fmt"
+)
 
-func rateMyComics (title, character, author string) (int, string) {
-	var myRating, myRecommendation string
-
-	switch title {
-		
-	}
-
+func main() {
+	fmt.Println("Hello World!")
 }

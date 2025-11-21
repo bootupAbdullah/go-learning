@@ -1,11 +1,11 @@
 package main
 
-import "fmt"
+import (
+		
+	"fmt"
+	"os"
+)
 
-func main () {
-
-	if success := true {
-		fmt.Println("Hello Mayn")
-	}
-
+func main() {
+	fmt.Printf("Hello, %\n", os.Args[1])
 }
