@@ -1,11 +1,11 @@
 package main
 
 import (
-		
 	"fmt"
-	"os"
+	"math"
 )
 
-func main() {
-	fmt.Printf("Hello, %\n", os.Args[1])
+func main(){
+	fmt.Printf("Now you have %g problems. \n", math.Sqrt(7))
 }
+	
