@@ -1,14 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
-}
+// Initialize variables
+var i, j int = 1, 2
 
-tour of go 7/17
+
 func main() {
-	fmt.Println(split(17))
+	var c, python, java = true, false, "no!"
+	fmt.Println(i, j, c, python, java)
 }
+
+// result: 
+// 1 2 true false "no!"
