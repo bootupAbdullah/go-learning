@@ -39,5 +39,43 @@ import "fmt"
 // All Go variables have zero values when declared without initialization.
 
 
+//!! ----> EXAMPLE:
+// Tour of Go: 9/17
+// Initialize variables
+// var i, j int = 1, 2
 
 
+// func main() {
+// 	var c, python, java = true, false, "no!"
+// 	fmt.Println(i, j, c, python, java)
+// }
+
+// result: 
+// 1 2 true false "no!"
+
+//!! ----> EXAMPLE:
+// Tour of Go: 9/17
+// var (
+// 	ToBe bool 		= false
+// )
+
+// func main() {
+// 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
+// }
+
+// result:
+// Type: bool Value: false
+
+
+//!! ----> EXAMPLE:
+// Tour of Go: 12/17
+// func main() {
+// 	var i int
+// 	var f float64
+// 	var b bool
+// 	var s string
+// 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
+// }
+
+// return:
+// 0 0 false ""

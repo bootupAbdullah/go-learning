@@ -4,14 +4,10 @@ import (
 	"fmt"
 )
 
-// Initialize variables
-var i, j int = 1, 2
-
-
 func main() {
-	var c, python, java = true, false, "no!"
-	fmt.Println(i, j, c, python, java)
+	var i int
+	var f float64
+	var b bool
+	var s string
+	fmt.Printf("%v %v %v %q\n", i, f, b, s)
 }
-
-// result: 
-// 1 2 true false "no!"
