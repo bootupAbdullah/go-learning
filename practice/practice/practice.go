@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
-func main(){
-	fmt.Printf("Now you have %g problems. \n", math.Sqrt(7))
+func sum(x,y int) int {
+	return x + y
 }
-	
+
+
+func main() {
+	fmt.Println(sum(4,2))
+}
