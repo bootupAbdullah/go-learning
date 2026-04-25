@@ -2,16 +2,18 @@
 
 fmt:
 	go fmt ./...
+
 .PHONY:fmt
 
-lint: fmt
+lint:fmt
 	golint ./...
 .PHONY:lint
 
-vet: fmt
+vet:fmt
 	go vet ./...
 .PHONY:vet
 
-build: vet
-	go build hello.go
+build:vet
+	go build practice.go
+	go build practice_2.go
 .PHONY:build

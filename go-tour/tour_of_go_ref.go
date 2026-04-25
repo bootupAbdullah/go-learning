@@ -1,9 +1,5 @@
 package main
 
-import "fmt"
-
-
-
 //!! ----> EXMAPLE:
 // Tour of Go: 6/17 ---> package level
 // func baller(x,y string) (string, string) {
@@ -14,8 +10,7 @@ import "fmt"
 // 	fmt.Println(baller("Hello", "World"))
 // }
 
-
-//!! ----> EXAMPLE:  
+//!! ----> EXAMPLE:
 // Tour of Go: 7/17
 // example: Go return values may be named.
 // func split(sum int) (x,y int) {
@@ -29,7 +24,7 @@ import "fmt"
 // var c, python, java bool
 
 // func main() {
-	// This var is created at "function" level
+// This var is created at "function" level
 // 	var i int
 // 	fmt.Println(i, c, python, java)
 // }
@@ -38,19 +33,17 @@ import "fmt"
 // 0 false false false
 // All Go variables have zero values when declared without initialization.
 
-
 //!! ----> EXAMPLE:
 // Tour of Go: 9/17
 // Initialize variables
 // var i, j int = 1, 2
-
 
 // func main() {
 // 	var c, python, java = true, false, "no!"
 // 	fmt.Println(i, j, c, python, java)
 // }
 
-// result: 
+// result:
 // 1 2 true false "no!"
 
 //!! ----> EXAMPLE:
@@ -66,7 +59,6 @@ import "fmt"
 // result:
 // Type: bool Value: false
 
-
 //!! ----> EXAMPLE:
 // Tour of Go: 12/17
 // func main() {
@@ -79,8 +71,6 @@ import "fmt"
 
 // return:
 // 0 0 false ""
-
-
 
 //!! ----> EXAMPLE:
 // Tour of Go: 15/17

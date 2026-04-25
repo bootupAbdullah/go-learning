@@ -1,12 +1,10 @@
-package main
+package timer
 
 import (
-	
-	"fmt"
 	"time"
-
 )
 
-func SetTimer() {
+func SetTimer() *time.Ticker{
 	ticker := time.NewTicker(time.Second)
+	return ticker
 }
